@@ -17,4 +17,4 @@ An educational web game developed to train fundamental mouse mechanics for young
 ## 🎮 Play the Game
 You can play the live version directly in your browser here: 
 
-https://github.com/DiogoSena27
+https://diogosena27.github.io/shark-navigator/
