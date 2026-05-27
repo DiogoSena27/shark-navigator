@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shark Navigator - SharkCoders Chaves</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #161616; /* Cor escura a combinar com o fundo do teu logo */
+            overflow: hidden;
+        }
+        .font-preload {
+            font-family: 'Nunito', sans-serif;
+            position: absolute;
+            left: -9999px;
+        }
+        canvas {
+            border-radius: 15px; /* Bordas arredondadas no próprio jogo */
+            box-shadow: 0 0 40px rgba(255, 0, 255, 0.15); /* Brilho rosa suave */
+        }
+    </style>
+</head>
+<body>
+    <div class="font-preload">Carregamento...</div>
+    <script src="game.js"></script>
+</body>
+</html>
